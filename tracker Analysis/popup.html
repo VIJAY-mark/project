@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Tracker Blocker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>🛡️ Tracker Blocker</h2>
+  <p>Blocked Scripts: <span id="count">0</span></p>
+
+  <input type="text" id="domain" placeholder="example.com">
+  <button id="addWhitelist">Whitelist</button>
+  <button id="addBlacklist">Blacklist</button>
+
+  <h4>Whitelist</h4>
+  <ul id="whitelist"></ul>
+
+  <h4>Blacklist</h4>
+  <ul id="blacklist"></ul>
+
+  <script src="popup.js"></script>
+</body>
+</html>
